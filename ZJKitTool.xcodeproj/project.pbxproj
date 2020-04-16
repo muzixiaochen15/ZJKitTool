@@ -160,6 +160,13 @@
 		1AE63CE4219A83F9001C269B /* ZJPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE63CE3219A83F9001C269B /* ZJPopupViewController.m */; };
 		38366BAD25E35E211E767BD8 /* libPods-ZJKitToolUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DA4A8C91820DDAB5C4C109 /* libPods-ZJKitToolUITests.a */; };
 		510E9EED4DE4EDA9F2AA6BA7 /* libPods-ZJKitToolTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B82D407B6565C4F2368EB6D7 /* libPods-ZJKitToolTests.a */; };
+		6B997F5724422D3500641152 /* ZJDatabaseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B997F5624422D3500641152 /* ZJDatabaseDetailViewController.m */; };
+		6B997F5A24422EA000641152 /* ZJDBDetailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B997F5924422EA000641152 /* ZJDBDetailCollectionViewCell.m */; };
+		6B997F5D24422F7D00641152 /* ZJDBDetailItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B997F5C24422F7D00641152 /* ZJDBDetailItem.m */; };
+		6B997F61244235A200641152 /* ZJDatabaseDetailTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B997F60244235A200641152 /* ZJDatabaseDetailTitleView.m */; };
+		6B9E68452447F8F900EEC7D2 /* ZJDatabaseDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9E68442447F8F900EEC7D2 /* ZJDatabaseDetailViewModel.m */; };
+		6B9E68472448043900EEC7D2 /* scrum敏捷基础考试.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B9E68462448043800EEC7D2 /* scrum敏捷基础考试.json */; };
+		6BAF3E7F2447636F00D1A37B /* ZJDatabaseDetailOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF3E7E2447636E00D1A37B /* ZJDatabaseDetailOptionView.m */; };
 		8D5BF4418DB357E2080E7DE4 /* libPods-ZJKitTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 869A70CCAA01A3BC90CD41DC /* libPods-ZJKitTool.a */; };
 /* End PBXBuildFile section */
 
@@ -494,6 +501,19 @@
 		1AE63CE2219A83F9001C269B /* ZJPopupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPopupViewController.h; sourceTree = "<group>"; };
 		1AE63CE3219A83F9001C269B /* ZJPopupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPopupViewController.m; sourceTree = "<group>"; };
 		65F82386E604A58F261BD044 /* Pods-ZJKitToolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJKitToolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJKitToolUITests/Pods-ZJKitToolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B997F5524422D3500641152 /* ZJDatabaseDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDatabaseDetailViewController.h; sourceTree = "<group>"; };
+		6B997F5624422D3500641152 /* ZJDatabaseDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDatabaseDetailViewController.m; sourceTree = "<group>"; };
+		6B997F5824422EA000641152 /* ZJDBDetailCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDBDetailCollectionViewCell.h; sourceTree = "<group>"; };
+		6B997F5924422EA000641152 /* ZJDBDetailCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDBDetailCollectionViewCell.m; sourceTree = "<group>"; };
+		6B997F5B24422F7D00641152 /* ZJDBDetailItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDBDetailItem.h; sourceTree = "<group>"; };
+		6B997F5C24422F7D00641152 /* ZJDBDetailItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDBDetailItem.m; sourceTree = "<group>"; };
+		6B997F5F244235A200641152 /* ZJDatabaseDetailTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDatabaseDetailTitleView.h; sourceTree = "<group>"; };
+		6B997F60244235A200641152 /* ZJDatabaseDetailTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDatabaseDetailTitleView.m; sourceTree = "<group>"; };
+		6B9E68432447F8F900EEC7D2 /* ZJDatabaseDetailViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDatabaseDetailViewModel.h; sourceTree = "<group>"; };
+		6B9E68442447F8F900EEC7D2 /* ZJDatabaseDetailViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDatabaseDetailViewModel.m; sourceTree = "<group>"; };
+		6B9E68462448043800EEC7D2 /* scrum敏捷基础考试.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "scrum敏捷基础考试.json"; sourceTree = "<group>"; };
+		6BAF3E7D2447636E00D1A37B /* ZJDatabaseDetailOptionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDatabaseDetailOptionView.h; sourceTree = "<group>"; };
+		6BAF3E7E2447636E00D1A37B /* ZJDatabaseDetailOptionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDatabaseDetailOptionView.m; sourceTree = "<group>"; };
 		6BEEC7DD5B200A212A0DA94C /* Pods-ZJKitTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJKitTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJKitTool/Pods-ZJKitTool.release.xcconfig"; sourceTree = "<group>"; };
 		80DA4A8C91820DDAB5C4C109 /* libPods-ZJKitToolUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJKitToolUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C8ADF658247266B8E3BDD6 /* Pods-ZJKitToolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJKitToolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJKitToolTests/Pods-ZJKitToolTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -838,6 +858,7 @@
 		0475BEE41FD12E8A00617353 /* ZJKitToolDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6B997F5224422C6D00641152 /* database */,
 				04B099F7209DB7BD00E66CA2 /* ZJKitTool */,
 				04191E5820889687004A24C6 /* Classes */,
 				04BE94C82045430900DF6779 /* Model */,
@@ -1377,6 +1398,50 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6B997F5224422C6D00641152 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				6B997F5324422C6D00641152 /* detail */,
+				6B997F5424422C6D00641152 /* master */,
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+		6B997F5324422C6D00641152 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				6B997F5E2442357D00641152 /* title */,
+				6B997F5524422D3500641152 /* ZJDatabaseDetailViewController.h */,
+				6B997F5624422D3500641152 /* ZJDatabaseDetailViewController.m */,
+				6B9E68432447F8F900EEC7D2 /* ZJDatabaseDetailViewModel.h */,
+				6B9E68442447F8F900EEC7D2 /* ZJDatabaseDetailViewModel.m */,
+				6B997F5B24422F7D00641152 /* ZJDBDetailItem.h */,
+				6B997F5C24422F7D00641152 /* ZJDBDetailItem.m */,
+				6B997F5824422EA000641152 /* ZJDBDetailCollectionViewCell.h */,
+				6B997F5924422EA000641152 /* ZJDBDetailCollectionViewCell.m */,
+				6B9E68462448043800EEC7D2 /* scrum敏捷基础考试.json */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		6B997F5424422C6D00641152 /* master */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = master;
+			sourceTree = "<group>";
+		};
+		6B997F5E2442357D00641152 /* title */ = {
+			isa = PBXGroup;
+			children = (
+				6B997F5F244235A200641152 /* ZJDatabaseDetailTitleView.h */,
+				6B997F60244235A200641152 /* ZJDatabaseDetailTitleView.m */,
+				6BAF3E7D2447636E00D1A37B /* ZJDatabaseDetailOptionView.h */,
+				6BAF3E7E2447636E00D1A37B /* ZJDatabaseDetailOptionView.m */,
+			);
+			path = title;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1488,6 +1553,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B9E68472448043900EEC7D2 /* scrum敏捷基础考试.json in Resources */,
 				04BE94BD20453FBC00DF6779 /* ZFPlayer.bundle in Resources */,
 				0475BEF21FD12E8A00617353 /* LaunchScreen.storyboard in Resources */,
 				0475BEEF1FD12E8A00617353 /* Assets.xcassets in Resources */,
@@ -1602,6 +1668,7 @@
 				1AE63CE4219A83F9001C269B /* ZJPopupViewController.m in Sources */,
 				04C517932021B83500AC15F1 /* ZJNavigationBar.m in Sources */,
 				0428DB3620EE7668003FB656 /* ZJNetworking.m in Sources */,
+				6B997F5D24422F7D00641152 /* ZJDBDetailItem.m in Sources */,
 				04242DE01FDA3AE2004682D3 /* ZJChooseViewController.m in Sources */,
 				04B09A6E209DB7BD00E66CA2 /* UICollectionView+ZJMasonryKit.m in Sources */,
 				04C517622020045200AC15F1 /* ZJHorizontalFlowLayout.m in Sources */,
@@ -1624,6 +1691,7 @@
 				04DA136120170CE400C619E5 /* ZJCommit.m in Sources */,
 				048E8A2E201728C600486470 /* ZJThreeChildView.m in Sources */,
 				04B09A85209DB7BD00E66CA2 /* UIView+ZJHUDHelperKit.m in Sources */,
+				6B997F5A24422EA000641152 /* ZJDBDetailCollectionViewCell.m in Sources */,
 				04C517692020153200AC15F1 /* ZJElementsCollectionViewController.m in Sources */,
 				04BE94B620453FBC00DF6779 /* ASValueTrackingSlider.m in Sources */,
 				04C9BCD82427193200B32E7D /* ZJUIViewController.m in Sources */,
@@ -1632,9 +1700,11 @@
 				1AE63CDD219A5DBD001C269B /* ZJBasePopupView.m in Sources */,
 				04B09A79209DB7BD00E66CA2 /* UIImageView+ZJImageView.m in Sources */,
 				04BE94BC20453FBC00DF6779 /* ZFBrightnessView.m in Sources */,
+				6BAF3E7F2447636F00D1A37B /* ZJDatabaseDetailOptionView.m in Sources */,
 				04B09A7B209DB7BD00E66CA2 /* UIAlertController+ZJAlert.m in Sources */,
 				04B09A6C209DB7BD00E66CA2 /* UITableView+ZJMarsonryKit.m in Sources */,
 				04B09A7A209DB7BD00E66CA2 /* UILabel+ZJLabel.m in Sources */,
+				6B9E68452447F8F900EEC7D2 /* ZJDatabaseDetailViewModel.m in Sources */,
 				04B09A70209DB7BD00E66CA2 /* ZJKitBaseController.m in Sources */,
 				04BFC727241D42D300FC21CB /* UIView+ZJView.m in Sources */,
 				048E8A2D201728C600486470 /* ZJOneChildView.m in Sources */,
@@ -1665,6 +1735,8 @@
 				04B09A72209DB7BD00E66CA2 /* UIScrollView+ZJScrollView.m in Sources */,
 				0408D24A209EF90900097E14 /* UIView+ZJMasonryFrame.m in Sources */,
 				04B09A90209DB7BD00E66CA2 /* NSDictionary+ZJHelperKit.m in Sources */,
+				6B997F5724422D3500641152 /* ZJDatabaseDetailViewController.m in Sources */,
+				6B997F61244235A200641152 /* ZJDatabaseDetailTitleView.m in Sources */,
 				04DA134D2016E14400C619E5 /* ZJStarsView.m in Sources */,
 				04C5176C20201BA700AC15F1 /* ZJVerticalWaterFallViewController.m in Sources */,
 				0430B85E20E396D100B8132F /* ZJPickerViewController.m in Sources */,
@@ -1892,13 +1964,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28E7TBMSGR;
+				DEVELOPMENT_TEAM = 5GD27M22MT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ZJKitToolDemo/Header.h;
 				INFOPLIST_FILE = "$(SRCROOT)/ZJKitToolDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codeDeng.ZJKitTool;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eqxiu.iPad-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1909,8 +1981,8 @@
 			baseConfigurationReference = 6BEEC7DD5B200A212A0DA94C /* Pods-ZJKitTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28E7TBMSGR;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ZJKitToolDemo/Header.h;
@@ -1919,6 +1991,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codeDeng.ZJKitTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

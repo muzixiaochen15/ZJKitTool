@@ -50,7 +50,19 @@
     }else {
         self.automaticallyAdjustsScrollViewInsets = NO;
     }
+    
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(didChangeRotate:)  name:UIApplicationDidChangeStatusBarFrameNotification object:nil];
 }
+
+- (void)didChangeRotate:(NSNotification*)notice {
+    if ([[UIDevice currentDevice] orientation] == UIInterfaceOrientationPortrait
+        || [[UIDevice currentDevice] orientation] == UIInterfaceOrientationPortraitUpsideDown) {
+        //竖屏
+    } else {
+        //横屏
+    }
+}
+
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];

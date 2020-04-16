@@ -203,4 +203,8 @@ typedef void(^ZJButtonActionIndexBlock)(NSUInteger index, UIButton *sender);
  *    @param nofiticationName    The notification name.
  */
 - (void)zj_removeAllNotificationWithName:(NSString *)nofiticationName;
+
+/// 屏幕旋转
+/// @param notice 回调
+- (void)didChangeRotate:(NSNotification*)notice;
 @end

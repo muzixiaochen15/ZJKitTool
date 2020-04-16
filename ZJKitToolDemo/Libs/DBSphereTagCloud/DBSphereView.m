@@ -111,7 +111,6 @@
     coordinate[index] = value;
     
     [self setTagOfPoint:rPoint andIndex:index];
-
 }
 
 - (void)setTagOfPoint: (DBPoint)point andIndex:(NSInteger)index

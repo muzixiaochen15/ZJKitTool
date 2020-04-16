@@ -34,8 +34,39 @@
     
 }
 
+//3.
+- (id (^)(UIColor * param))backgroundColor{
+    __weak typeof(self) weakSelf = self;
+    // 类实例方法
+    if ([self.view.class instancesRespondToSelector:@selector(setBackgroundColor:)]) {
+        return ^(UIColor * param){
+            [(UIView *)weakSelf.view setBackgroundColor:param];
+            return weakSelf;
+        };
+    }else{
+        return ^(UIColor * param){
+            return weakSelf;
+        };
+    }
+}
+
+- (id (^)(CGRect param))frame{
+    __weak typeof(self) weakSelf = self;
+    // 类实例方法
+    if ([self.view.class instancesRespondToSelector:@selector(setFrame:)]) {
+        return ^(CGRect param){
+            [(UIView *)weakSelf.view setFrame:param];
+            return weakSelf;
+        };
+    }else{
+        return ^(CGRect param){
+            return weakSelf;
+        };
+    }
+}
+
 -(void)setUpCustomView{
-    
+        
     UIView *view = [[UIView alloc]init];
     view.zj_chain.backgroundColor(kRedColor)
     .shadowRadius(6)

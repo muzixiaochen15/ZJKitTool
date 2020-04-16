@@ -35,6 +35,7 @@
 #import "ZJNetworkViewController.h"
 #import "ZJImageCompressViewController.h"
 #import "ZJPopupViewController.h"
+#import "ZJDatabaseDetailViewController.h"
 
 @interface ZJMainViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -56,7 +57,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"ZJKitTool";
-    self.titleArray = @[@{@"title":@"快速创建控件+Masonry布局",@"className":@"ZJKitAndMasonryViewController"},
+    self.titleArray = @[@{@"title": @"考试题", @"className": @"ZJDatabaseDetailViewController"},
+                        @{@"title":@"快速创建控件+Masonry布局",@"className":@"ZJKitAndMasonryViewController"},
                         @{@"title":@"UI控件",@"className":@"ZJUIViewController"},
                         @{@"title":@"评论列表(MVVM)",@"className":@"ZJCommitViewController"},
                         @{@"title":@"筛选视图",@"className":@"ZJChooseViewController"},

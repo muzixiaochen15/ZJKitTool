@@ -10,12 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void(^OKBtnBlock)(void);
+// 选项
+typedef void(^OKBtnBlock)(NSInteger optionIndex);
+typedef void(^CancelBtnBlock)(void);
 
 @interface ZJPopShowView : ZJBasePopupView
 
 
 @property (nonatomic, copy) OKBtnBlock okBlock;
+@property (nonatomic, copy) CancelBtnBlock cancelBlock;
 
 @end
 

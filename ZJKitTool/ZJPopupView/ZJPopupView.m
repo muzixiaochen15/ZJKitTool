@@ -102,13 +102,13 @@
             UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(bgViewAction:)];
             [self addGestureRecognizer:tap];
         }
-        if (isBlurEffect) {
-            // 毛片玻璃效果
-            UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
-            UIVisualEffectView *effectView =[[UIVisualEffectView alloc]initWithEffect:blurEffect];
-            effectView.frame = self.bounds;
-            [self addSubview:effectView];
-        }
+//        if (isBlurEffect) {
+//            // 毛片玻璃效果
+//            UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+//            UIVisualEffectView *effectView =[[UIVisualEffectView alloc]initWithEffect:blurEffect];
+//            effectView.frame = self.bounds;
+//            [self addSubview:effectView];
+//        }
         
         self.showView = showView;
         self.bgAlpha = bgAlpha > 0.0 ? bgAlpha : 0.5;
@@ -116,7 +116,7 @@
         self.isBGClickAction = isBGClickAction;
         self.style = animaStyle;
         self.hidden = YES;
-        self.backgroundColor = [UIColor colorWithRed:33/255.0 green:33/255.0 blue:33/255.0 alpha:self.bgAlpha];
+        self.backgroundColor = [UIColor colorWithRed:0/255.0 green:0/255.0 blue:0/255.0 alpha:self.bgAlpha];
         if (showView != nil) {
             NSAssert([showView isKindOfClass:[ZJBasePopupView class]], @"showView 必须继承 ZJBasePopupView");
             self.showView = showView;

@@ -51,7 +51,7 @@
     [self.popupView zj_showPopupView];
     
     kWeakObject(self);
-    self.showView.okBlock = ^{
+    self.showView.okBlock = ^(NSInteger optionIndex) {
         [weakObject closeBtnAction];
     };
 }
